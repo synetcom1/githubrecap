@@ -1,0 +1,360 @@
+/* whole body structure */
+html{
+    background-color: white;
+    font-family: sans-serif;
+    font-size: 24px;
+
+}
+/* logo dementions */
+.logo{
+    position: fixed;
+    left: 100px;
+    top: 15px;
+    width: 20px;
+    height: 20px;
+    z-index: 4000;
+}
+.logo1{
+    width: 50px;
+    position: relative;
+    margin-top: 10px;
+
+}
+.logo h3{position: fixed;
+    left: 160px;
+    top: 5px;
+    width: 20px;
+    height: 20px;
+    z-index: 4000;
+
+}
+/* menu dementions  */
+#menu{
+    color: black;
+    position: absolute;
+    width: 100%;
+    height: 92px;
+    left: 0px;
+    top: 0px;
+   
+    }
+    /* menu color and hovwr color */
+    a{
+        color: black;
+    }
+    a:hover{
+
+        color: white;
+    }
+    /* video dementions  */
+#myVideo {
+    position: fixed;
+    top: 0;
+    left: 0;
+    min-width: 100%;
+    min-height: 100%;
+    background-size: cover;
+    background: url(Mountains.mp4);}
+/* home page  title and paragraph   */
+h1{ 
+    position: fixed;
+    width: 1200px;
+    height: auto;
+    color:white;
+    z-index: 200;
+    opacity: 50%;
+    margin-top: 400px ;
+    margin-left: 500px ;
+    font-size: 120px;
+}
+p{
+    position: fixed;
+    width: 800px;
+    height: auto;
+    z-index: 400;
+    color: white;
+    margin-top: 600px ;
+    margin-left: 550px ;
+    text-align: center;
+}
+h2{ 
+    position: fixed;
+    width: 1000px;
+    line-height: 50px ;
+    color: black;
+    z-index: 500px;
+
+}
+ /* table dementions  */
+table {
+    position: fixed;
+    margin-left: 800px;
+    margin-top: 200px;
+    width: 500px;
+    height: 500px;
+    z-index: 100;
+    background-color: white;
+        opacity: 60%;
+
+    }
+/* menu demenitions */
+.UL{
+position: absolute;
+right:100px ;
+top:5px;
+z-index: 200;
+
+}
+li{
+display:inline-block;
+margin-left: 20px;
+}
+/* humberger button on desktop  */
+.fa-bars{
+        display:none;}
+
+/* form dementions on desktop  */
+form{
+    position:fixed;
+    top:200px;
+    left:700px;
+    width:500px;
+    height:400px;
+    background-color:red;
+   }
+   /* image position on desktop   */
+.img{position: fixed;
+    top: 0;
+    left: 0;
+    min-width: 100%;
+    min-height: 100%;
+    background-size: cover;
+    background: url(hinter.jpg);
+    z-index: -200;
+    opacity: 80%;}
+
+}
+/* table dementions on desktop  */
+table {
+    position: fixed;
+    right:1200px;
+    top: 600px;
+    width: 500px;
+    height: 700px;
+    z-index: 100;
+    background-color: white;
+        opacity: 60%;
+
+    }
+th, td {
+     text-align: center;}
+/* title contact us today  */
+.today{
+    position: fixed;
+    top: 350px;
+    left: 300px;
+    font-size: 36px;
+    width:600px;
+    z-index: 200;
+}
+/* footer dementions on desktop for copyright 2020 */
+footer{
+    position: fixed;
+    bottom: 15px;
+    left: 800px;
+   text-align: center;
+   font-size: 24px;
+    z-index: 200;
+}
+/* social madia icons  */
+.social{
+    z-index: 200;
+}
+.one { 
+    position: fixed;
+    bottom: 50px;
+    right: 180px;
+    
+}
+.two{
+    position: fixed;
+    bottom: 50px;
+    right: 50px;
+    
+}
+@media(max-width:1024px){
+/* menu size on ipad  */
+    .UL{
+        font-size: 30px;
+        }
+.logo1{
+            width: 50px;
+            position: relative;
+            margin-top: 10px;}
+       /* humberger button on ipad  */
+            .fa-bars{
+        display:none;}
+     /* ipad title and paragraph for home page  */
+        h1{ 
+    position: fixed;
+    width: 800px;
+    height: auto;
+    color:#061528;
+    z-index: 200;
+    opacity: 70%;
+    margin-top: 500px ;
+    margin-left: 190px ;
+    font-size: 90px;}
+   
+    p{
+    position: fixed;
+    width: 600px;
+    height: auto;
+    z-index: 400;
+    color: white;
+    margin-top: 650px ;
+    margin-left: 200px ;
+    text-align: center;
+    opacity: 50px;}
+/* ipad form dementions  */
+    form{
+    position: relative;
+    width: 200px;
+    height: 700px;
+    top: 500px;
+    left: 300px; }
+    /* ipad table  */
+    table {
+    position: fixed;
+    right: 50px;
+    top: 200px;
+    width: 500px;
+    height: 700px;
+    z-index: 100;}
+    /* footer for ipad */
+    footer{
+        position: fixed;
+        bottom: 15px;
+        left: 400px;
+       text-align: center;
+       font-size: 36px;
+        z-index: 200; }
+    /* social media ipad dementions   */
+        .one { 
+        position: fixed;
+        bottom: 50px;
+        right: 180px;}
+        .two{
+        position: fixed;
+        bottom: 50px;
+        right: 50px; }
+}
+@media(max-width:414px){
+    /*  table dementions on iphone */
+    table {
+        position: fixed;
+    
+        top: 100px;
+        width: 300px;
+        height: 500px;
+        z-index: 100;  
+        }
+   /* logo dementions on iphone  */
+   
+    .logo1{
+            width: 40px;
+            position: fixed;
+            margin-top: 10px;
+           left: 20px;
+        }
+    .logo h3{position: fixed;
+        left: 65px;
+        top: 3px;
+        width: 10px;
+        height: 10px;
+        z-index: 4000;}
+        /* menu dementions on iphone  */
+ ul{
+    position: fixed;
+    width: 120px;
+    height: auto;
+    margin-top: 100px;
+    left: 230px;
+}
+li{
+    color: black;
+    font-size: 20px;
+}
+
+    /*  humberger button on iphone  */
+.fa-bars{
+        display:block;
+        color: white;
+        position: fixed;
+        top: 25px;
+        right:20px;
+        font-size:40px;
+        z-index: 200;
+
+        }
+        /* title and paragraph on home iphone page  */
+        h1{ 
+            position: fixed;
+            width: 300px;
+            height: auto;
+            color:#061528;
+            z-index: 200;
+            opacity: 60%;
+            margin-top: 300px ;
+            margin-left: 90px ;
+            font-size: 60px;
+        }
+        p{
+            position: fixed;
+            width: 300px;
+            height: auto;
+            z-index: 400;
+            color: white;
+            margin-top: 500px ;
+            margin-left: 50px ;
+            text-align: center;
+            opacity: 50px;
+            font-size: 18px;
+        }
+        /* form page on iphone  */
+        form{
+         position: relative;
+         top: 400px;
+         left: 20px;
+        }
+        /* title for contact us today on iphone  */
+        .today{
+            position: fixed;
+            top: 300px;
+            left: 20px;
+            font-size: 30px;
+            width:600px;
+            z-index: 200;}
+            /* iphone footer  */
+            footer{
+                position: fixed;
+                bottom: 10px;
+                left: 150px;
+               text-align: center;
+               font-size: 18px;
+                z-index: 200;
+            }
+            /* social media icon  */
+            .one { 
+                position: fixed;
+                bottom: 50px;
+                right: 120px;
+                width: 50px;
+            }
+            .two{
+                position: fixed;
+                bottom: 50px;
+                right: 50px;
+                width: 50px;
+            }
+    }

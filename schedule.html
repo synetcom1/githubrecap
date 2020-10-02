@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/e7d889d19c.js" crossorigin="anonymous"></script>
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <div class="logo">
+        <img src="logo.png" class="logo1" alt="img" >
+        <h3>Atlas</h3>
+    </div>
+    <div id="menu">
+        <ul class="UL">
+            <a href="index.html"> <li>Home</li></a>
+            <a href="schedule.html"> <li>Destinations</li></a> 
+             <a href="contact.html"><li>Contact Us</li></a>
+         </ul>
+       </ul>
+       </div>
+       <div id="fa-bars"> 
+        <a href="javascript:void(0);" class="icon" onclick="toggleHamburger()">
+        <i class="fas fa-bars" style="color: #061528;"></i></a>
+    </div>
+<img src="south-africa.jpg" alt="img" class="img" style="z-index: 20;">
+<table id="t01">
+    <tr>
+        <th>Destinations </th>
+        <th>Next Tour </th>
+    <tr>
+        <td>Asia</td>
+        <td>01/10/2020</td>
+    </tr>
+    <tr>
+        <td>Africa</td>
+        <td>01/10/2020</td>
+    </tr>
+    <tr>
+            <td>North America</td>
+            <td>01/10/2020</td>
+           
+    </tr>
+    <tr>
+        <td>Latin America</td>
+        <td>01/10/2020</td>
+       
+</tr>
+<tr>
+    <td>Europe</td>
+    <td>01/10/2020</td>
+   
+</tr>
+<tr>
+    <td>Australia</td>
+    <td>01/10/2020</td>
+   
+</tr>
+    </table>
+ 
+    <script>
+        function toggleHamburger() {
+            let x = document.getElementById("menu");
+            if (x.style.display === "block") {
+                x.style.display = "none";
+            } else {
+                x.style.display = "block";
+            }
+        }
+    </script>
+    <footer>
+        &copy; 2020 Atlas
+    </footer>
+</body>
+</html>

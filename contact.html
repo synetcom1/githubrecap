@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/e7d889d19c.js" crossorigin="anonymous"></script>
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="logo">
+        <img src="logo.png" class="logo1" alt="img">
+        <h3>Atlas</h3>
+    </div>
+    <div id="menu">
+        <ul class="UL">
+            <a href="index.html">
+                <li>Home</li>
+            </a>
+            <a href="schedule.html">
+                <li>Destinations</li>
+            </a>
+            <a href="contact.html">
+                <li>Contact Us</li>
+            </a>
+        </ul>
+        </ul>
+    </div>
+    <div id="fa-bars">
+        <i class="fas fa-bars"></i>
+    </div>
+    <div id="fa-bars">
+        <a href="javascript:void(0);" class="icon" onclick="toggleHamburger()">
+            <i class="fas fa-bars" style="color: #061528;"></i></a>
+    </div>
+    <div class="today">
+        <strong> Contact Us Today</strong>
+    </div>
+    <form action="mailto:dannykibrom7@gmail.com">
+        <input type="text" name="Company Name"> <br>
+        Contact Person <br>
+        <input type="text" name="contact"> <br>
+        Phone Number <br>
+        <input type="tel" name="phonenumber"> <br>
+        Email <br>
+        <input type="email" name="email"> <br>
+        Message <br>
+        <textarea name="Comment" cols="50" rows="4"> Enter here .... </textarea> <br>
+        <input type="Submit" value="Submit">
+    </form>
+    <img src="hinter.jpg" alt="img" class="img">
+    <div class="social">
+        <a href="https://www.linkedin.com/in/daniel-kesete-95b490199/"><img src="download.png" alt="linkedin"
+                class="one" width="80px"></a>
+        <a href="https://www.pinterest.com/dannykibrom/boards/"><img src="Pinterest.png" alt="Pinterest" class="two"
+                width="80px"> </a>
+    </div>
+    <script>
+        function toggleHamburger() {
+            let x = document.getElementById("menu");
+            if (x.style.display === "block") {
+                x.style.display = "none";
+            } else {
+                x.style.display = "block";
+            }
+        }
+    </script>
+    <footer>
+        &copy; 2020 Atlas
+    </footer>
+</body>
+
+</html>
